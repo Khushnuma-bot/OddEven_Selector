@@ -1,0 +1,38 @@
+<html>  
+<head>  
+<title> jQuery odd() and even() method </title>  
+ <link rel="stylesheet" href="main.css">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+ 
+</head>  
+<body>  
+  
+<h3> Welcome to my First jquery Work </h3>  
+<h4> Creating a web page with JQuery is not an easy task. </h4>  
+<ul>
+   <p>  
+    <li> What is Your name ?</li>  
+    <li> What is your age? </li>  
+    <li> What is your favourite Color? </li>  
+    <li> What is your best friend name?</li>  
+    <li> What is your  favourite sport? </li>  
+    <li> Who is your Favourite actor? </li>  
+    <li> What is your favourite food? </li>  
+    <li> Where you live? </li>  
+    <li> What is your nationality? </li>  
+    <li> what is your height? </li>  
+    </p>
+</ul>  
+<p> Click the below button to select the elements with odd index. </p>
+<button> Click me </button>
+
+<script>
+$(document).ready(function(){
+	$("button").click(function() {
+	$("li").odd().css("background-color", "yellow");
+    });
+	});
+</script>
+ 
+</body>  
+</html>  
